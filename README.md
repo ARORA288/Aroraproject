@@ -1,49 +1,4 @@
-<p align="center">
-  <svg width="200" height="260" viewBox="0 0 200 260" xmlns="http://www.w3.org/2000/svg">
-    
-    <style>
-      .head {
-        animation: headDance 1s infinite alternate;
-        transform-origin: center;
-      }
-      .arm-left {
-        animation: armLeft 0.8s infinite alternate;
-        transform-origin: top right;
-      }
-      .arm-right {
-        animation: armRight 0.8s infinite alternate;
-        transform-origin: top left;
-      }
-      .body {
-        animation: bodyDance 1s infinite alternate;
-      }
 
-      @keyframes headDance {
-        0% { transform: rotate(-5deg); }
-        100% { transform: rotate(5deg); }
-      }
-
-      @keyframes armLeft {
-        0% { transform: rotate(-20deg); }
-        100% { transform: rotate(20deg); }
-      }
-
-      @keyframes armRight {
-        0% { transform: rotate(20deg); }
-        100% { transform: rotate(-20deg); }
-      }
-
-      @keyframes bodyDance {
-        0% { transform: translateY(0); }
-        100% { transform: translateY(5px); }
-      }
-    </style>
-
-    <!-- Head -->
-    <rect class="head" x="60" y="20" width="80" height="60" rx="15" fill="#6C63FF"/>
-    <circle cx="85" cy="50" r="6" fill="white"/>
-    <circle cx="115" cy="50" r="6" fill="white"/>
-    <rect x="90" y="65" width="20" height="5" rx="3" fill="white"/>
 
     <!-- Body -->
     # 🤖 pythonproject
